@@ -1,4 +1,4 @@
-package icici;
+package test;
 
 import java.io.IOException;
 
@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import baseclass.WrapperClass;
+import pages.FDCalculatorPage;
 
 public class FDCalculatorTest extends WrapperClass{
 	@BeforeClass
