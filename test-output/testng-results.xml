@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-04T14:51:40Z" name="Default suite" finished-at="2020-10-04T14:53:22Z" duration-ms="101500">
+  <suite started-at="2020-10-05T17:23:17Z" name="Default suite" finished-at="2020-10-05T17:24:53Z" duration-ms="96076">
     <groups>
     </groups>
-    <test started-at="2020-10-04T14:51:40Z" name="Default test" finished-at="2020-10-04T14:53:22Z" duration-ms="101500">
-      <class name="icici.NewTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:icici.NewTest@568bf312]" started-at="2020-10-04T20:21:40Z" name="beforeClass" finished-at="2020-10-04T20:22:55Z" duration-ms="74740" status="PASS">
+    <test started-at="2020-10-05T17:23:17Z" name="Default test" finished-at="2020-10-05T17:24:53Z" duration-ms="96076">
+      <class name="test.FDCalculatorTest">
+        <test-method is-config="true" signature="openSite()[pri:0, instance:test.FDCalculatorTest@4c6e276e]" started-at="2020-10-05T22:53:17Z" name="openSite" finished-at="2020-10-05T22:53:54Z" duration-ms="36704" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:icici.NewTest@568bf312]" started-at="2020-10-04T20:22:55Z" name="f" finished-at="2020-10-04T20:23:21Z" duration-ms="25880" status="PASS">
+        </test-method> <!-- openSite -->
+        <test-method signature="getMaturityValueTest()[pri:0, instance:test.FDCalculatorTest@4c6e276e]" started-at="2020-10-05T22:53:54Z" name="getMaturityValueTest" finished-at="2020-10-05T22:54:50Z" duration-ms="56125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:icici.NewTest@568bf312]" started-at="2020-10-04T20:23:21Z" name="afterClass" finished-at="2020-10-04T20:23:22Z" duration-ms="837" status="PASS">
+        </test-method> <!-- getMaturityValueTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.FDCalculatorTest@4c6e276e]" started-at="2020-10-05T22:54:50Z" name="close" finished-at="2020-10-05T22:54:53Z" duration-ms="3208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- icici.NewTest -->
+        </test-method> <!-- close -->
+      </class> <!-- test.FDCalculatorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
